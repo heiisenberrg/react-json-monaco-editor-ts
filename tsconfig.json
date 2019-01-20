@@ -1,0 +1,42 @@
+// {
+//   "compilerOptions": {
+//     "outDir": "build/dist/",
+//     "sourceMap": true,
+//     "noImplicitAny": true,
+//     "module": "commonjs",
+//     "target": "es5",
+//     "lib": ["es5", "es6", "dom"],
+//     "jsx": "preserve"
+//   },
+//   "exclude": [
+//     "node_modules",
+//     "build",
+//     "webpack"
+//   ],
+//   "include": [
+//     "./src/**/*"
+//   ]
+// }
+
+{
+  "compilerOptions": {
+      "outDir": "./build/",
+      "sourceMap": true,
+      // "typeRoots": [
+      //   "./node_modules/@types",
+      //   "./typings"
+      // ],
+      "strict": true,
+      "noImplicitReturns": true,
+      "noImplicitAny": true,
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "target": "es5",
+      "allowJs": true,
+      "jsx": "react",
+  },
+  "include": [
+      "./src/**/*",
+      "./typings"
+  ]
+}

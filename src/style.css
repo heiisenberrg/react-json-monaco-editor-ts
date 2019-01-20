@@ -1,0 +1,236 @@
+.myGlyphMarginClass {
+	background: #ee5d6c;
+	width: 5px !important;
+	left: 3px;
+}
+.myContentClass {
+	background: rgb(241, 95, 102);
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #007bff;
+	border-color: #007bff;
+	cursor: pointer;
+}
+
+.btn {
+	display: inline-block;
+	font-weight: 400;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	border: 1px solid transparent;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: .25rem;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-success {
+	color: #fff;
+	background-color: #28a745;
+	border-color: #28a745;
+}
+
+.upload-btn {
+  cursor: pointer;
+  margin-left: 15px;
+  position: relative; }
+  .upload-btn button {
+    cursor: pointer;
+    color: #fff;
+    outline: none; }
+    .upload-btn button:hover {
+      color: #fff; }
+  .upload-btn input::-webkit-file-upload-button {
+    visibility: hidden; }
+  .upload-btn input {
+    cursor: pointer;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+		z-index: 1; }
+		
+		.fade.show {
+			opacity: 1;
+	}
+
+	.alert-warning {
+		color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.alert-dismissible {
+	padding-right: 4rem;
+}
+
+.alert {
+	position: relative;
+	padding: .75rem 1.25rem;
+	margin-bottom: 1rem;
+	border: 1px solid transparent;
+	border-radius: .25rem;
+}
+
+.fade {
+	opacity: 0;
+	transition: opacity .15s linear;
+}
+
+.alert-dismissible .close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: .75rem 1.25rem;
+	color: inherit;
+}
+
+button.close {
+	padding: 0;
+	background-color: transparent;
+	border: 0;
+	-webkit-appearance: none;
+}
+
+.close {
+	float: right;
+	font-size: 1.5rem;
+	font-weight: 700;
+	line-height: 1;
+	color: #000;
+	text-shadow: 0 1px 0 #fff;
+	opacity: .5;
+}
+
+button {
+	text-transform: none;
+	overflow: visible;
+}
+
+.close:not(:disabled):not(.disabled) {
+	cursor: pointer;
+}
+
+.card {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: .25rem;
+}
+
+.card-header {
+	padding: .75rem 1.25rem;
+	margin-bottom: 0;
+	background-color: rgba(0,0,0,.03);
+	border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.display-flex {
+	display: flex;
+}
+
+.card-body {
+	-webkit-box-flex: 1;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	padding: 1.25rem;
+	min-height: 600px;
+}
+
+.container-fluid {
+	width: 800px;
+	height: 800px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.h5 {
+	margin-top: 0.5rem;
+	margin-bottom: .5rem;
+	font-family: inherit;
+	font-size: 1.25rem;
+	font-weight: 500;
+	line-height: 1.2;
+	color: inherit;
+}
+
+.actions {
+	justify-content: flex-end;
+}
+
+.col-md-6 {
+	width: 50%;
+	float: left;
+}
+
+.border {
+  width: 100%;
+	height: 600px;
+	border: 1px solid #ddd;
+}
+
+.react-monaco-editor-container {
+	width: 96%;
+	height: 600px;
+	position: relative;
+}
+
+.upload-icon {
+	margin-top: 2px;
+	margin-right: 5px;
+}
+
+.upload-img {
+	height: 15px;
+	width: 15px;
+}
+
+.loader-main {
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+	z-index: 99999; }
+
+	.display-none {
+		display: none;
+	}
+
+	.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+
+.badge-secondary {
+	color: #fff;
+	margin-left:  10px;
+	background-color: #28a745;
+}
